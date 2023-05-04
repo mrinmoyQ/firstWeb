@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(4,4,13);
+	background: linear-gradient(90deg, rgba(4,4,13,0.944397742006959) 0%, rgba(0,3,4,0.9387955011106005) 51%, rgba(0,0,0,0.8855742125951943) 100%);
+}
+.infoAbout{
+	position: relative;
+	width: 500px;
+	height: 300px;
+}
+.infoAbout .aboutMe{
+	position: absolute;
+	color: white;
+	top:10px;
+	left: 30px;
+}
+.infoAbout .definition{
+	position: absolute;
+	color: white;
+	width: 400px;
+	height : auto;
+	border: 1px solid none;
+	top:50px;
+	left: 50px;
+}
+
+.work{
+	position: relative;
+	width: 500px;
+	height: 200px;
+}
+
+.work .job{
+	position: absolute;
+	color: white;
+	top:10px;
+	left: 30px;
+}
+
+.work .definition2{
+	position: absolute;
+	color: white;
+	width: 400px;
+	height : auto;
+	border: 1px solid none;
+	top:50px;
+	left: 50px;
+}
+
+.contact{
+	color: white;
+}
